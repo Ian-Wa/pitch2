@@ -38,3 +38,7 @@ Open the application on your browser `127.0.0.1:5000`.
 
 ## Known Bugs
 * There are no known bugs currently but pull requests are allowed incase you spot a bug
+
+## Contact Information 
+
+If you have any question or contributions, please email me at [Ian Wanjira](https://www.ianwanjira4@gmail.com)
