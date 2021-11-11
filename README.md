@@ -16,3 +16,7 @@ This is a flask application where user can create pitches and view other people'
   cd pitch2
   pip install -r requirements.txt
   ```
+3. Exporting Configurations
+  ```bash
+  export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
+  ```
