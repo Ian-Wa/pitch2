@@ -10,3 +10,9 @@ This is a flask application where user can create pitches and view other people'
   ```bash
   https://github.com/Ian-Wa/pitch2.git
   ```
+
+2. Move to the folder and install requirements
+  ```bash
+  cd pitch2
+  pip install -r requirements.txt
+  ```
