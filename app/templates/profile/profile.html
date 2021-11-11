@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+    
+    <!-- Services -->
+    <div class="row mt-4">
+        <h1 class="text-center">Welcome to Ian Pitches.</h1>
+        <hr>
+        <div class="col-md-4 mt-4">
+          
+            <div class="card h-100" style="width: 18rem;">
+                
+                <div class="card-body">
+                    <h5 class="card-title">Ian Pitches</h5>
+                    <p class="card-text">
+                        In life, you only have 60 seconds to impress someone. 
+                        1 minute can make or break you. How do we make sure that you use your 
+                        1 minute to actually say something meaningful?
+                    </p>
+                    <!-- <a href="{{url_for('main.pitches')}}" class="btn btn-outline-primary">Checkout Pitches</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card h-100" style="width: 18rem;">
+                
+                <div class="card-body">
+                    <h5 class="card-title">Ian Pitches</h5>
+                    <p class="card-text">
+                        You can create an account with us login in and create your own custom pitches
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card h-100" style="width: 18rem;">
+                
+                <div class="card-body">
+                    <h5 class="card-title">Ian Pitches</h5>
+                    <p class="card-text">
+                        Our website is user friendly as you'd only need to have logged in to comment on a pitch. 
+                        Incase you don't have an account feel free to create one.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+      
+        <div class="col-md-4 mt-4">
+            <div class="card h-100" style="width: 18rem;">
+                
+                <div class="card-body">
+                    <h5 class="card-title">Connecting you to others.</h5>
+                    <p class="card-text">
+                        Login and connect with other users
+                    </p>
+                    <a href="{{url_for('main.pitches')}}" class="btn btn-outline-primary">Checkout Pitches</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card h-100" style="width: 18rem;">
+                
+                <div class="card-body">
+                    <h5 class="card-title">Share your ideas</h5>
+                    <p class="card-text">
+                        Share awesome ideas to other people and get feedback.
+                    </p>
+                    <a href="{{url_for('main.addpitches')}}" class="btn btn-outline-primary">Create  pitch</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card h-100" style="width: 18rem;">
+                
+                <div class="card-body">
+                    <h5 class="card-title">Explore ideas.</h5>
+                    <p class="card-text">
+                        Explore other people ideas and help by giving feedback.
+                    </p>
+                    <a href="{{url_for('auth.login')}}" class="btn btn-outline-primary">Log in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="row mt-5">
+        <hr>
+        <div class="col-md-12">
+            <footer>
+                <p style="text-align: center"> Copyright &copy;
+                    <script>document.write(new Date().getFullYear())</script> Ian Pitches All Rights Reserved
+                </p>
+            </footer>
+        </div>
+    </div>
+
+
+</div>
+
+{% endblock %}
