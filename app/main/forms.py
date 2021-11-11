@@ -7,7 +7,6 @@ class UpdateProfile(FlaskForm):
     bio = TextAreaField('Tell us about you.',validators = [Required()])
     submit = SubmitField('Submit')
     
-
 class PitchForm(FlaskForm):
     title = StringField('Title', validators=[Required()])
     category = SelectField('Pitch Category', choices=[('Sales','Sales'),('Interview','Interview'),
