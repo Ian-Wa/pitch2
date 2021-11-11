@@ -20,3 +20,7 @@ This is a flask application where user can create pitches and view other people'
   ```bash
   export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
   ```
+4. Running the application
+  ```bash
+  python3.8 manage.py server
+  ```
